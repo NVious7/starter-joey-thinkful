@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 52px;
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+}
+
+header {
+  background: #0B1C51;
+  color: white;
+  margin-bottom: 32px;
+}
+
+nav {
+  padding-bottom: 5px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+a{
+  font-family: Montserrat;
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  padding: 0;
+}
+
+li:last-child a {
+  margin-right: 0px;
+}
+
+@media all and (min-width: 600px) {
+  h1 {
+    font-size: 48px;
+    padding-bottom: 10px;
+  }
+
+  header {
+    display: flex; 
+    justify-content: space-between;
+    padding: 0 40px;
+  }
+
+  header nav {
+    margin-top: 14px;
+  }
+
+  header nav ul li a:hover {
+    color: #bdbdbd;
+  }
+}
